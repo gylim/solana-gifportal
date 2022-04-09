@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+firstproject = "DaCKwesrfcR9pJqJWChWTER94jZ9os2ur7LznmitBwXR"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/benjaminlim/.config/solana/id.json"
+
+[scripts]
+test = "node tests/firstproject.js"
